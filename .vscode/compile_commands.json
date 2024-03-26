@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/aaronher/Desktop/PhysicsSemesterProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/aaronher/Desktop/PhysicsSemesterProject/include -isystem /opt/homebrew/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/PhysicsProject.dir/Application.cpp.o -c /Users/aaronher/Desktop/PhysicsSemesterProject/Application.cpp",
+  "file": "/Users/aaronher/Desktop/PhysicsSemesterProject/Application.cpp",
+  "output": "CMakeFiles/PhysicsProject.dir/Application.cpp.o"
+},
+{
+  "directory": "/Users/aaronher/Desktop/PhysicsSemesterProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/aaronher/Desktop/PhysicsSemesterProject/include -isystem /opt/homebrew/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/PhysicsProject.dir/src/Core/Window.cpp.o -c /Users/aaronher/Desktop/PhysicsSemesterProject/src/Core/Window.cpp",
+  "file": "/Users/aaronher/Desktop/PhysicsSemesterProject/src/Core/Window.cpp",
+  "output": "CMakeFiles/PhysicsProject.dir/src/Core/Window.cpp.o"
+}
+]
