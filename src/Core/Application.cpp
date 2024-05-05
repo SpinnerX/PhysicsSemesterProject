@@ -27,7 +27,8 @@ namespace PhysicsSimulation{
 			for(Layer* layer : layerStack){
 				layer->onUpdate(timestep);
 			}
-
+			
+			window->clear(sf::Color(0.f, 0.f, 0.f));
 			for(Layer* layer : layerStack){
 				layer->onRender();
 			}
@@ -40,7 +41,6 @@ namespace PhysicsSimulation{
 		auto iter = layerStack.end();
 
 		while(iter != layerStack.begin()){
-			/* if(App.GetEvent(event)){} */
 			(*--iter)->onEvent(event);
 		}
 	}

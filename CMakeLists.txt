@@ -23,6 +23,7 @@ set(
     include/Core/Layer.h
     include/Core/LayerStack.h
 	include/Core/Timestep.h
+	include/Utilities/Math.h
 )
 
 set(
